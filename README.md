@@ -32,6 +32,8 @@ Below is the HTML for a website that has a header and links to JavaScript files.
 
 
 
+
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -89,7 +91,9 @@ get '/' do
 end
 ```
 
-When the above controller action is triggered and the `erb` method is called, it looks to see if there is a view titled `layout.erb`. If that file exists, it loads that content around the desired erb file, in this case `index.erb`.
+When the above controller action is triggered and the `erb` method is called, it looks to see if there is a view titled `layout.erb`. //Is that an automatic Ruby/erb thing?
+
+If that file exists, it loads that content around the desired erb file, in this case `index.erb`.
 
 The resulting HTML will look like this:
 
